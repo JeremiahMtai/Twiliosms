@@ -37,7 +37,7 @@ class SmsController extends Controller
         
                 // Display a success message
                    
-                return redirect()->back()->with('message','Product Added Successfully !!');
+                return redirect()->back();
             } else {
                 // Handle the case where the recipient phone number is null
                 // dd("Recipient phone number is null");
